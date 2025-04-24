@@ -1,0 +1,7 @@
+url: 'https://vguigue.github.io/tuto-LLM/' # your main domain
+show_downloads: true
+baseurl: ''
+plugins:
+- jekyll-remote-theme 
+remote_theme: pages-themes/cayman
+title: "Tutoriel sur l'usage des modèles de langue"
