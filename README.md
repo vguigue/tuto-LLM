@@ -9,8 +9,10 @@ Lien: [Tokenizer Playground](https://huggingface.co/spaces/Xenova/the-tokenizer-
 <div class="ex-box">
 Mettre en évidence la gestion des langues en tokenisant:
 
-- *Je ne suis pas très content*
-- *I'm so disappointed*
+<ul>
+<il> *Je ne suis pas très content* </il>
+<il> *I'm so disappointed* </il>
+<ul>
 
 ➡️ Avec chatGPT (multi-lingue) ou BERT (anglophone)
 </div>
@@ -29,12 +31,17 @@ Mettre en évidence la gestion des langues en tokenisant:
     - tester différents modèles (plus) ouverts
     - modèles de raisonnement
 - **perplexity**: une alternative à chatGPT [lien](https://www.perplexity.ai/)
+- **aristote**: pour un dialogue sécurisé (accès avec des identifiant académique) [lien](https://chat.aristote.education)
 
 Les sites de comparaison directe de modèles:
 
 - **Site gouvernemental**: [lien](https://www.comparia.beta.gouv.fr)
     - etimation de la consommation des LLMs (en plus de la comparaison des résultats)
 - **lmarena**: le site historique de benchmark humain [lien](https://lmarena.ai) 
+
+Les LLM en mode RAG, pour dialoguer avec des documents:
+
+- **NotebookLM**: [lien](https://notebooklm.google.com/)
 
 **Et ceux, intéressants, que vous pourrez tester après la session de formation**
 
