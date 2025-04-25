@@ -177,7 +177,6 @@ The European Commission said on Thursday it disagreed with German advice to cons
 <li> Format the output in JSON
 </li>
 </ul> 
-</div>
 
 ➡️ Les réponses sont-elles de qualités équivalentes avec et sans contraintes de formatage?<BR>
 ➡️ Des idées de prompts pour bien extraire des entités: [lien](https://arxiv.org/pdf/2305.15444)
@@ -188,16 +187,12 @@ Et si on traitait un fichier pdf (avec chatGPT)?
 
 <div class="ex-box">
 
-Soit le document: [ressources/sujet.pdf]
+Soit le document: [lien](ressources/sujet.pdf)
 Construire un JSON à partir du document pdf suivant listant:<BR>
 - le titre de la thèse<BR>
 - le nom du candidat<BR>
 - une liste de mots clés<BR>
 - un résumé en quelques mots du sujet
-</div>
-
-➡️ Les réponses sont-elles de qualités équivalentes avec et sans contraintes de formatage?<BR>
-➡️ Des idées de prompts pour bien extraire des entités: [lien](https://arxiv.org/pdf/2305.15444)
 
 </div>
 
