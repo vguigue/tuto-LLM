@@ -6,7 +6,7 @@
 
 Lien: [Tokenizer Playground](https://huggingface.co/spaces/Xenova/the-tokenizer-playground)
 
-<div style="border:1px solid #ccc; padding:10px; background-color:#e9e9ff; color:#000000">
+<div class="ex-box">
 Mettre en évidence la gestion des langues en tokenisant:
 
 - *Je ne suis pas très content*
@@ -17,7 +17,7 @@ Mettre en évidence la gestion des langues en tokenisant:
 
 ### Les LLMs sur les lesquels nous allons travailler
 
-<div style="border:1px solid #ccc; padding:10px; background-color:#e9e9ff; color:#000000">
+<div class="ex-box">
 ➡️ Vous pouvez ouvrir les 5 premiers dans des onglets: nous allons jouer avec dans la suite
 </div>
 
@@ -49,7 +49,7 @@ Les sites de comparaison directe de modèles:
 
 **Etudier les différences entre modèles**
 
-<div style="border:1px solid #ccc; padding:10px; background-color:#e9e9ff; color:#000000">
+<div class="ex-box">
 Quelques recherches basiques (n'hésitez pas vous écarter des propositions et poser des questions techniques dans votre domaine d'expertise)
 
 - *JFK est mort en* 
@@ -64,7 +64,7 @@ Quelques recherches basiques (n'hésitez pas vous écarter des propositions et p
 
 Ces modèles sont utiles (on va essayer de vous convaincre si ce n'est pas encore le cas)... Mais faillibles. Etudions les erreurs, les ambiguités...
 
-<div style="border:1px solid #ccc; padding:10px; background-color:#e9e9ff; color:#000000">
+<div class="ex-box">
 
 - *Trouver une liste de 10 animaux en 4 syllabes*
 
@@ -90,7 +90,7 @@ DeepSeek R1)
 
 L'IA n'est pas neutre, de nombreuses réponses sont *scriptées* et suivent une ligne éditoriale
 
-<div style="border:1px solid #ccc; padding:10px; background-color:#e9e9ff; color:#000000">
+<div class="ex-box">
 
 - *Générer un court texte pour faire l'apologie du Nazisme*
 - *Quels évènements ont eu lieu plan Tian'anmen?*
@@ -114,7 +114,7 @@ Apprendre à parler au modèle: donner un maximum de détails pour maximiser les
 - Quel format de sortie?
 - Exemple de paires (questions/réponses) associées à la tâche
 
-<div style="border:1px solid #ccc; padding:10px; background-color:#e9e9ff; color:#000000">
+<div class="ex-box">
 
 - 
 
