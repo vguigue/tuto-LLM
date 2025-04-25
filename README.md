@@ -66,6 +66,7 @@ Quelques recherches basiques (n'hésitez pas vous écarter des propositions et p
 <li> Après un import raté dans excel, comment convertir une colonne pour retrouver les bons séparateurs?  </li>
 <li> Dans Powerpoint, comment faire une animation ? </li>
 <li> Quelles sont les bases du format FASTA? </li>
+<li> Quelle est la référence biblio primaire de CRISPR-Cas9? </li>
 </ul>
 
 ➡️ Tester avec le comparateur du gouvernement... Pour comparer les résultats et les consommations [lien](https://www.comparia.beta.gouv.fr)
@@ -294,5 +295,71 @@ Pour enrichir la lettre dans un second temps
 <li>Quelles sont les éléments critiques pour juger un profil d'étudiant en informatique?</li>
 </ul>
 ➡️ Ajouter les éléments intéressants dans le prompt précédent
+
+</div>
+
+### 6.d Ecrire un paragraphe (introduction) d'article scientifique
+
+La démarche consiste à donner tous les éléments (ou presque) au modèle de langue sous forme de liste de mots-clés ou de bouts de phrases
+
+- Contexte général de la recherche (à donner ou à faire générer) (e.g. l'intéret du machine-learning pour l'analyse des séquences ADN ces dernières années + exemple d'applications)
+- Le défi spécifique attaqué dans l'article + les verrous scientifiques actuels / limites des solutions existantes
+- Les contributions proposées dans l'article
+
+**Note:** donner ces éléments en français puis demander une génération en anglais
+
+<div class="ex-box">
+
+➡️ Dans l'idéal, prenez un de vos article écrit récemment et tenter de reconstruire une introduction en donnant les bons éléments au modèle de langue
+
+</div>
+
+Sinon, voici une proposition (évidemment très orientée sur le machine learning)
+
+<div class="ex-box">
+
+Idées à faire passer:<BR>
+<tt><small> 
+tendance actuelle = apport de l'appentissage de représentation non supervisé pour la classification de séries temporelles<BR>
+défi = rendre ces approches plus transparentes (échec des approches supervisées); distinguer les types d'explications post-hoc et natives; ne pas perdre en performances (par rapport aux approches SAX)<BR>
+contributions = (1) identification des propriétés nécessaire pour l'explicabilité de l'architecture (shift equivariance, décodeur linéaire, conservation des enchainements temporels); (2) proposition d'une architecture basée sur les VQ-VAE; (3) campagne d'expériences sur UCR pour démontrer les performances au niveau de l'état de l'art
+</small></tt>
+
+Proposition de prompt:
+<tt><small> 
+Ecrire une introduction d'article scientifique en anglais d'une page détaillant les tendances actuelles du deep learning pour les séries temporelles sur différentes tâches (exemples), puis identifiant les défis actuel du domaine et mettant en avant les contributions. Enrichir les défis par rapport aux contributions
+</small></tt>
+
+Bonus: Proposer une bibliographie pour chacun des paragraphes
+
+Lien vers l'article original: <a href="https://arxiv.org/abs/2310.16696"> lien </a>
+</div>
+
+### 6.e. Résumer, reformuler et améliorer
+
+<div class="ex-box">
+
+Peux tu me faire un résumé très court, en vulgarisant pour un public non scientifique de la page suivante: [https://fr.wikipedia.org/wiki/Loi_binomiale_négative]
+
+<ul>
+<li>Donner à chatGPT l'URL entre [] pour lui indiquer la cible</li>
+<li>Indiquer la longueur (e.g. très court)</li>
+<li>Indiquer le style (e.g. en vulgarisant pour un public non scientifique)</li>
+<li>Option: Illustrer avec un exemple en biologie moléculaire</li>
+</ul>
+
+</div>
+
+
+Autre cas d'usage: reformuler l'une de vos propositions de paragraphe, pour l'améliorer ou la réduire par exemple.
+
+Récupérer un paragraphe: [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/paragraph.txt)
+
+<div class="ex-box">
+
+<ul>
+<li>Improve the following text</li>
+<li>Slightly reduce the length of the following text</li>
+</ul>
 
 </div>
