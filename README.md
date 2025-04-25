@@ -240,7 +240,7 @@ Pour aller plus loin avec le prompt: [lien](https://docs.anthropic.com/fr/prompt
 
 ### 6.a. Passer d'un texte à un format tabulaire
 
-Soit le texte suivant [lien](https://fr.wikipedia.org/wiki/Agriculture_en_France\#Occupation_des_sols_et_du_territoire)
+Soit le texte suivant [lien](https://fr.wikipedia.org/wiki/Agriculture_en_France#Occupation_des_sols_et_du_territoire)
 
 <div class="ex-box">
 
@@ -255,7 +255,7 @@ Construire un tableau à l'aide du prompt suivant:
 
 ### 6.b. Copier-coller de tableaux bruts (uniquement pour les utilisateurs de latex)
 
-Soit le tableau suivant [lien](https://fr.wikipedia.org/wiki/Agriculture_en_France\#Productions_agricoles)
+Soit le tableau suivant [lien](https://fr.wikipedia.org/wiki/Agriculture_en_France#Productions_agricoles)
 
 <div class="ex-box">
 
@@ -264,5 +264,35 @@ Construire un tableau latex à l'aide du prompt suivant:
 <li>Construire un tableau au format Latex à partir des données suivantes:</li>
 <li>Sélectionner le bloc de texte (=tableau brut), le copier, le coller dans le prompt</li>
 </ul>
+
+</div>
+
+### 6.c Lettre de motivation / recommandation
+
+CV (fictif) : [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/CV_Vincent_Guigue.pdf)<BR>
+Offre de thèse (fictive) : [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/sujet.pdf)
+
+<div class="ex-box">
+
+Evidemment, le LLM ne peut pas inventer le contenu!<BR>
+Ecrire une lettre de recommandation pour
+<ul>
+<li>l'étudiant Vincent Guigue</li>
+<li>pour une candidature en thèse</li>
+<li>comment vous l'avez croisé [UE, projet, stage, ...]</li>
+<li>pourquoi vous le recommandez [Sérieux, autonomie, projet remarquable?]</li>
+</ul>
+Récupérer les éléments qui vous intéressent dans le CV et donner le sujet de thèse au LLM (chatGPT) pour générer la recommandation.
+
+</div>
+
+Pour enrichir la lettre dans un second temps
+<div class="ex-box">
+
+<ul>
+<li>Quelles sont les qualités recherchées pour ce sujet de thèse?</li>
+<li>Quelles sont les éléments critiques pour juger un profil d'étudiant en informatique?</li>
+</ul>
+➡️ Ajouter les éléments intéressants dans le prompt précédent
 
 </div>
