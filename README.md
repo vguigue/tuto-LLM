@@ -145,3 +145,41 @@ Apprendre à parler au modèle: donner un maximum de détails pour maximiser les
 ➡️ Le point de vue et le contexte sont critiques pour obtenir une réponse adaptée
 
 </div>
+
+## Formatage
+
+Il est possible de jouer avec le format de sortie:
+
+- réponses plus courtes, longues, plus soutenues, avec des mots plus simple, pour un enfant...
+- et avec un formatage avancé
+
+<div class="ex-box">
+
+<ul>
+<li> Dans la phrase: Les chaussettes de l’archiduchesse sont-elles sèches
+ou archi-sèches? combien y a-t-il de noms communs? </li>
+<li> Construire un fichier JSON avec la liste des noms communs et des adjectifs à partir de la phrase : Les chaussettes de l'archiduchesse sont-elles sèches ou archi-sèches?
+</li>
+</ul> 
+</div>
+
+On peut ensuite aller vers des chaînes de traitements.
+
+
+<div class="ex-box">
+
+Soit la phrase:<BR>
+The European Commission said on Thursday it disagreed with German advice to consumers to shun British lamb until scientists determine whether mad cow disease can be transmitted to sheep.
+
+
+<ul>
+<li> Extract the following entities with their types :\textit{(place, person, organisation, date)} </li>
+<li> Format the output in JSON
+</li>
+</ul> 
+</div>
+
+➡️ Les réponses sont-elles de qualités équivalentes avec et sans contraintes de formatage?<BR>
+➡️ Des idées de prompts pour bien extraire des entités: [lien](https://arxiv.org/pdf/2305.15444)
+
+</div>
