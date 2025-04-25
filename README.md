@@ -1,4 +1,4 @@
-# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tutoriel sur les LLM
+<p style="text-align:center;"> # Tutoriel sur les LLM </p>
 
 ## Se lancer avec un LLM
 
