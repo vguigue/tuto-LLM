@@ -10,9 +10,9 @@ Lien: [Tokenizer Playground](https://huggingface.co/spaces/Xenova/the-tokenizer-
 Mettre en évidence la gestion des langues en tokenisant:
 
 <ul>
-<il> *Je ne suis pas très content* </il>
-<il> *I'm so disappointed* </il>
-<ul>
+<li> *Je ne suis pas très content* </li>
+<li> *I'm so disappointed* </li>
+</ul>
 
 ➡️ Avec chatGPT (multi-lingue) ou BERT (anglophone)
 </div>
