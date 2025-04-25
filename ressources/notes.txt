@@ -1,0 +1,46 @@
+
+Réunion d'équipe – 23 avril 2025
+Salle de réunion A / Visio
+
+Alice, Bob, Claire, David  
+
+
+Étude des petits ARN régulateurs dans des modèles non conventionnels (ex. : microalgues, champignons filamenteux).
+
+Objectif : développer une pipeline bioinformatique robuste pour détecter, quantifier et annoter les petits ARN à partir de données de séquençage haut débit.
+
+---
+
+Axes de travail
+Axe 1 : Pré-traitement et nettoyage des données
+- Adapter  workflows  (Cutadapt, FastQC).
+- Intégrer une étape de filtrage spécifique pour les ARN < 200 nt.
+
+Axe 2 : Détection et annotation
+
+- Outils type miRDeep2, ShortStack, sRNAtoolbox.
+- Discussion sur les BD de référence (miRBase, RFam).
+- => dév.  module d’annotation fonctionnelle contextuelle.
+  - qui pour gérer?
+
+Axe 3 : Visualisation et rendu des résultats
+
+- Automatisation de rapports : RMarkdown / MultiQC.
+- Interface web min.  rendu (Shiny ou Streamlit ?).
+
+---
+
+Répartition des tâches
+
+- Alice : test des jeux de données publics, première évaluation de miRDeep2.
+- Bob : construction du pipeline Snakemake / Nextflow.
+- Claire : exploration BD, test annotation.
+- David :  biblio. petits ARN non-canoniques.
+- Sophie : coordination globale, rédaction du pré-projet ANR.
+
+---
+
+Prochaine réunion :  13 mai à 10h.
+Constitution GitLab (Bob).
+Première démo du pipeline 15 mai.
+
