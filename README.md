@@ -1,8 +1,8 @@
 
 
-## Se lancer avec un LLM
+## 1. Se lancer avec un LLM
 
-### Préliminaire: comprendre l'unité de base des LLM: le token
+### 1.a. Préliminaire: comprendre l'unité de base des LLM: le token
 
 Lien: [Tokenizer Playground](https://huggingface.co/spaces/Xenova/the-tokenizer-playground)
 
@@ -14,15 +14,16 @@ Mettre en évidence la gestion des langues en tokenisant:
 <li> I'm so disappointed </li>
 </ul>
 
+Vous pouvez copier-coller des morceau de wikipedia pour une vision plus large: [lien fr](https://fr.wikipedia.org/) / [lien eng](https://en.wikipedia.org/)
+
 ➡️ Avec chatGPT (multi-lingue) ou BERT (anglophone)
 </div>
 
-### Les LLMs sur les lesquels nous allons travailler
+### 1.b. Les LLMs sur les lesquels nous allons travailler
 
 <div class="ex-box">
-➡️ Vous pouvez ouvrir les 5 premiers dans des onglets: nous allons jouer avec dans la suite
+➡️ Vous pouvez ouvrir les 6 premiers dans des onglets: nous allons jouer avec dans la suite
 </div>
-
 
 - **chatGPT**: le modèle à l'origine de l'ouverture des LLM au grand public [lien](https://chatgpt.com/)
     - lien avec internet
@@ -31,7 +32,6 @@ Mettre en évidence la gestion des langues en tokenisant:
     - tester différents modèles (plus) ouverts
     - modèles de raisonnement
 - **perplexity**: une alternative à chatGPT [lien](https://www.perplexity.ai/)
-- **aristote**: pour un dialogue sécurisé (accès avec des identifiant académique) [lien](https://chat.aristote.education)
 
 Les sites de comparaison directe de modèles:
 
@@ -43,7 +43,7 @@ Les LLM en mode RAG, pour dialoguer avec des documents:
 
 - **NotebookLM**: [lien](https://notebooklm.google.com/)
 
-**Et ceux, intéressants, que vous pourrez tester après la session de formation**
+### 1.c. Et ceux, intéressants, que vous pourrez tester après la session de formation
 
 - **Claude**: le modèle d'Anthropic [lien](https://claude.ai/)
     - beaucoup de recherche pour epxliquer les résultats... Mais pas encore visible pour le grand public
@@ -51,25 +51,27 @@ Les LLM en mode RAG, pour dialoguer avec des documents:
     - Télécharger, lancer, ouvrir une console, lancer un modèle dans la console (attention, le téléchargement du LLM a lien à ce moemnet là).
     - Idéal pour les données sensibles, les chaines de traitements de pdf ou autres
 - **Grok**: pour voir la différence avec des modèles libertariens [lien](https://grok.com/chat)
+- **aristote**: pour un dialogue sécurisé (accès avec des identifiant académique) [lien](https://chat.aristote.education)
 
-## Premiers tests
 
-**Etudier les différences entre modèles**
+## 2. Premiers tests
+
+### 2.a. Etudier les différences entre modèles
 
 <div class="ex-box">
 Quelques recherches basiques (n'hésitez pas vous écarter des propositions et poser des questions techniques dans votre domaine d'expertise)
 
 <ul>
 <li> JFK est mort en </li>
-<li> Comment barrer du texte en latex?  </li>
-<li> Comment formatter l'affichage d'un float en python?  </li>
+<li> Après un import raté dans excel, comment convertir une colonne pour retrouver les bons séparateurs?  </li>
+<li> Dans Powerpoint, comment faire une animation ? </li>
 <li> Quelles sont les bases du format FASTA? </li>
 </ul>
 
 ➡️ Tester avec le comparateur du gouvernement... Pour comparer les résultats et les consommations [lien](https://www.comparia.beta.gouv.fr)
 </div>
 
-**Mettre en difficulté un modèle**
+### 2.b. Mettre en difficulté un modèle
 
 Ces modèles sont utiles (on va essayer de vous convaincre si ce n'est pas encore le cas)... Mais faillibles. Etudions les erreurs, les ambiguités...
 
@@ -85,11 +87,18 @@ Ces modèles sont utiles (on va essayer de vous convaincre si ce n'est pas encor
 DeepSeek R1) <BR>
 ➡️ Demander le nombre de syllabes d’Elephant (au(x) modèle(s) faisant des erreurs)
 
+</div>
+
+<div class="ex-box">
 <ul>
-<li> Je voudrais une bibliographie sur les auto-encodeurs variationnels </li>
+<!-- <li> Je voudrais une bibliographie sur les auto-encodeurs variationnels </li> -->
+<li> Je voudrais une bibliographie sur la technique CRISPR-CAS9 </li>
 </ul>
 
-➡️ avec `meta-llama/Llama-3.3-70B-Instruct` Tester les différentes références: $>90\%$ sont bonnes, que faut-il en conclure?
+➡️ avec <tt>meta-llama/Llama-3.3-70B-Instruct</tt> Tester les différentes références: si >90\% sont bonnes, que faut-il en conclure?
+</div>
+
+<div class="ex-box">
 
 <ul>
 <li> Décris moi une cellule </li>
@@ -103,9 +112,9 @@ DeepSeek R1) <BR>
 </div>
 
 
-## Alignement, censure ou ligne éditoriale?
+## 3. Alignement, censure ou ligne éditoriale?
 
-L'IA n'est pas neutre, de nombreuses réponses sont *scriptées* et suivent une ligne éditoriale
+L'IA n'est pas neutre, de nombreuses réponses sont *scriptées* et suivent donc une ligne éditoriale
 
 <div class="ex-box">
 
@@ -123,7 +132,7 @@ L'IA n'est pas neutre, de nombreuses réponses sont *scriptées* et suivent une 
 
 </div>
 
-## Prompting
+## 4. Prompting
 
 Apprendre à parler au modèle: donner un maximum de détails pour maximiser les chances d'obtenir une réponse satisfaisante:
 
@@ -146,7 +155,7 @@ Apprendre à parler au modèle: donner un maximum de détails pour maximiser les
 
 </div>
 
-## Formatage
+## 5. Formatage
 
 Il est possible de jouer avec le format de sortie:
 
@@ -169,12 +178,12 @@ On peut ensuite aller vers des chaînes de traitements.
 <div class="ex-box">
 
 Soit la phrase:<BR>
-The European Commission said on Thursday it disagreed with German advice to consumers to shun British lamb until scientists determine whether mad cow disease can be transmitted to sheep.
+La Commission européenne a déclaré jeudi qu'elle n'était pas d'accord avec les conseils donnés par l'Allemagne aux consommateurs d'éviter l'agneau britannique tant que les scientifiques n'auront pas déterminé si la maladie de la vache folle peut être transmise aux moutons.
 
 
 <ul>
-<li> Extract the following entities with their types :\textit{(place, person, organisation, date)} </li>
-<li> Format the output in JSON
+<li> Extraire les entités avec leur type :\textit{(place, person, organisation, date)} </li>
+<li> Formater le résultat en JSON
 </li>
 </ul> 
 
@@ -196,3 +205,4 @@ Construire un JSON à partir du document pdf suivant listant:<BR>
 
 </div>
 
+Pour aller plus loin avec le prompt: [lien](https://docs.anthropic.com/fr/prompt-library/library)
