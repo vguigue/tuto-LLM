@@ -155,7 +155,7 @@ Apprendre à parler au modèle: donner un maximum de détails pour maximiser les
 
 </div>
 
-## 5. Formatage
+## 5. Imposer le format de sortie
 
 ### 5.a. Il est possible de jouer avec le format de sortie:
 
@@ -208,18 +208,21 @@ The European Commission said on Thursday it disagreed with German advice to cons
 </ul> 
 
 ➡️ Les réponses sont-elles de qualités équivalentes dans les deux langues?
-➡️ Des idées de prompts pour bien extraire des entités (GPT NER): [lien](https://arxiv.org/pdf/2305.15444)
 
 </div>
+
+**Après la séance, de manière optionnelle.** Des idées de prompts pour bien extraire des entités (GPT NER): [lien](https://arxiv.org/pdf/2305.15444) 
 
 ### 5.c. Chaine de traitements de documents pdf 
 
 Et si on traitait un fichier pdf (avec chatGPT, en faisant un glisser-déposer du fichier dans le prompt)?
 Vous pouvez utiliser le sujet ci-dessous ou n'importe quel sujet ou fichier court (2-3 pages max) que vous avez écrit récemment, en modifiant éventuellement les questions.
 
+Soit le document: [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/sujet.pdf)
+
+
 <div class="ex-box">
 
-Soit le document: [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/sujet.pdf)
 Construire un JSON à partir du document pdf suivant listant:<BR>
 - le titre de la thèse<BR>
 - le nom du candidat<BR>
@@ -233,4 +236,33 @@ Construire un JSON à partir du document pdf suivant listant:<BR>
 Pour aller plus loin avec le prompt: [lien](https://docs.anthropic.com/fr/prompt-library/library)
 
 
-## 6. 
+## 6. Mise en forme des données brutes
+
+### 6.a. Passer d'un texte à un format tabulaire
+
+Soit le texte suivant [lien](https://fr.wikipedia.org/wiki/Agriculture_en_France\#Occupation_des_sols_et_du_territoire)
+
+<div class="ex-box">
+
+Construire un tableau à l'aide du prompt suivant:
+<ul>
+<li>Construire un tableau au format Latex/Excel à partir des données suivantes:</li>
+<li>Sélectionner le bloc de texte, le copier, le coller dans le prompt</li>
+<li>Copier-coller le tableau dans Excel</li>
+</ul>
+
+</div>
+
+### 6.b. Copier-coller de tableaux bruts (uniquement pour les utilisateurs de latex)
+
+Soit le tableau suivant [lien](https://fr.wikipedia.org/wiki/Agriculture_en_France\#Productions_agricoles)
+
+<div class="ex-box">
+
+Construire un tableau latex à l'aide du prompt suivant:
+<ul>
+<li>Construire un tableau au format Latex à partir des données suivantes:</li>
+<li>Sélectionner le bloc de texte (=tableau brut), le copier, le coller dans le prompt</li>
+</ul>
+
+</div>
