@@ -369,7 +369,7 @@ Récupérer un paragraphe: [lien](https://github.com/vguigue/tuto-LLM/blob/main/
 Mise en forme des notes prises rapidement lors d'une réunion 
 
 - Prendre les notes (non confidentielles) prises lors d'une réunion récente
-- ou utilise le fichier fictif : [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/notes.txt)
+- ou utiliser le fichier fictif : [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/notes.txt)
 
 <div class="ex-box">
 
@@ -434,4 +434,74 @@ Je veux organiser un séminaire sur les nouvelles techniques autour des petits A
 <li>Ne pas hésiter à demander des outils pour certaines étapes (e.g. sélection des aarticles)</li>
 <li>Auprès de qui rechercher un budget? Comment procéder? Ecrire les lettres de demande</li>
 </ul>
+</div>
+
+### 7.b Explications / bibliographie
+
+<div class="ex-box">
+Quel est le principe de [XXX] (e.g. la technique CRISPR-Cas9)
+
+
+<ul>
+<li>Remplacer le CRISPR-Cas9 par ce que vous voulez</li>
+<li>très court, avec un vocabulaire non technique</li>
+<li>en 30 lignes avec la ou les principales références bibliographiques</li>
+
+</ul>
+
+➡️ Encore et toujours une histoire de prompting: il faut des détails sur l'exercice qui vous intéresse
+</div>
+
+<div class="ex-box">
+Générer une bibliographie sur la technique CRISPR-Cas9: distinguer les références qui précèdent cette technique, les références qui fondent CRISPR-Cas9 et les avancées récentes sur ces architectures
+<ul>
+<li>Remplacer le CRISPR-Cas9 par ce que vous voulez</li>
+
+</ul>
+
+➡️ Encore et toujours une histoire de véracité: il faut vérifier que les références existent... Et sont bien pertinentes!
+</div>
+
+
+### 7.c Générations amusantes
+
+<div class="ex-box">
+Trouver un acronyme pour un projet de recherche sur les petits ARN: l'idée est d'optimiser la réponse des plantes aux stress environnementaux avec de l'IA
+
+<ul>
+<li>On peut spécifier la langue (le LLM part vers l'anglais ou le franglais par défaut)</li>
+
+</ul>
+</div>
+
+<div class="ex-box">
+
+Rédiger un poème sur les petits ARN, la réponse des plantes aux stress environnementaux, les perspectives d'utilisation de l'IA pour le futur. Les rimes seront croisées.
+<ul>
+<li>On peut préciser la langue ou rajouter des élements dans le prompt ou dans les questions suivantes</li>
+<li>Si vous voulez ensuite générer de l'audio, différents outils existent: e.g. <a href="https://elevenlabs.io/app/speech-synthesis/text-to-speech"> lien </a> </li>
+</ul>
+
+Note: le test avec chatGPT est très concluant!
+</div>
+
+### 7.d Génération d'image
+
+Si le prompting s'est largement simplifié avec l'évolution des LLM grand public (ils intuitent beaucoup mieux les intentions utilisateurs)... Il reste un domaine critique: celui de la génération des images.
+
+
+
+<div class="ex-box">
+
+Trouver un prompt permettant de générer l'image suivante
+
+<p align="center">
+  <img src="" alt="fig-gen">
+</p>
+<ul>
+<li>On peut préciser la langue ou rajouter des élements dans le prompt ou dans les questions suivantes</li>
+<li>Si vous voulez ensuite générer de l'audio, différents outils existent: e.g. <a href="https://elevenlabs.io/app/speech-synthesis/text-to-speech"> lien </a> </li>
+</ul>
+
+Note: le test avec chatGPT est très concluant!
 </div>
