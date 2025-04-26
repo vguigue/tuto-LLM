@@ -324,12 +324,12 @@ tendance actuelle = apport de l'appentissage de représentation non supervisé p
 défi = rendre ces approches plus transparentes (échec des approches supervisées); distinguer les types d'explications post-hoc et natives; ne pas perdre en performances (par rapport aux approches SAX)<BR>
 contributions = (1) identification des propriétés nécessaire pour l'explicabilité de l'architecture (shift equivariance, décodeur linéaire, conservation des enchainements temporels); (2) proposition d'une architecture basée sur les VQ-VAE; (3) campagne d'expériences sur UCR pour démontrer les performances au niveau de l'état de l'art
 </small></tt>
-
+<BR>
 Proposition de prompt:
 <tt><small> 
 Ecrire une introduction d'article scientifique en anglais d'une page détaillant les tendances actuelles du deep learning pour les séries temporelles sur différentes tâches (exemples), puis identifiant les défis actuel du domaine et mettant en avant les contributions. Enrichir les défis par rapport aux contributions
 </small></tt>
-
+<BR>
 Bonus: Proposer une bibliographie pour chacun des paragraphes
 
 Lien vers l'article original: <a href="https://arxiv.org/abs/2310.16696"> lien </a>
@@ -362,4 +362,76 @@ Récupérer un paragraphe: [lien](https://github.com/vguigue/tuto-LLM/blob/main/
 <li>Slightly reduce the length of the following text</li>
 </ul>
 
+</div>
+
+### 6.f. Compte rendu de réunion
+
+Mise en forme des notes prises rapidement lors d'une réunion 
+
+- Prendre les notes (non confidentielles) prises lors d'une réunion récente
+- ou utilise le fichier fictif : [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/notes.txt)
+
+<div class="ex-box">
+
+Construire un compte rendu de réunion à partir des notes suivantes
+
+<ul>
+<li>Spécifier le niveau de langue: soutenu, simple, liste</li>
+<li>[opt] Spécifier le format: latex, markdown</li>
+</ul>
+
+</div>
+
+
+## 7. Aide à la création de contenus
+
+### 7.a. Brainstorming
+
+#### Pour les enseignants
+
+<div class="ex-box">
+
+Je veux construire le plan d'un cours sur XXX [e.g. l'Intelligence Artificielle]
+
+<ul>
+<li>Proposer un plan de cours en 10 parties</li>
+<li>Renouveler l'opération sur les items pertinents pour obtenir des détails (ou demander dès le début des sous-parties)</li>
+</ul>
+
+➡️ Juger ce qui est (1) pertinent mais évident, (2) pertienent et original, (3) discutable ou faux
+</div>
+
+Et pour générer un quizz (très à la mode pour des évaluations mieux réparties et robustes à chatGPT)...
+
+<div class="ex-box">
+
+Je suis en train de faire un cours sur [XXX détaillé] (e.g. les modèles de deep learning pour l'image (CNN, ViT) avec des étudiants en informatique de niveau Master 2)\\ Peux-tu me générer un quizz de 4 questions sur ce thème?
+<ul>
+<li> Demander 10 ou 20 questions pour avoir plus de choix (certaines questions seront plus pertinentes que d'autres !)</li>
+<li> OPT: Demander une génération en latex</li>
+<li> Comparer avec un des exercices suivant où on fera la même chose... En donnant le poly de cours comme base</li>
+</ul>
+
+</div>
+
+#### Pour les non-enseignants
+
+<div class="ex-box">
+
+Générer un texte d'un demi page sur les usages de l'IA dans votre métier/votre équipe de recherche en mode SWOT (Strengths, Weaknesses, Opportunities, Threats).
+
+<ul>
+<li>Ce texte a vocation a être publié sur la page web de votre équipe</li>
+<li>A la manière d'une rédaction de projet, il doit être crédible tout en mettant en avant votre équipe</li>
+</ul>
+</div>
+
+<div class="ex-box">
+
+Je veux organiser un séminaire sur les nouvelles techniques autour des petits ARN pour les plantes de 2 jours avec des inscriptions gratuites pour les orateurs et payantes pour les participants dans le cadre d'une université francaise. Quelles sont les grandes étapes? Par ou commencer?
+
+<ul>
+<li>Ne pas hésiter à demander des outils pour certaines étapes (e.g. sélection des aarticles)</li>
+<li>Auprès de qui rechercher un budget? Comment procéder? Ecrire les lettres de demande</li>
+</ul>
 </div>
