@@ -32,6 +32,7 @@ Vous pouvez copier-coller des morceau de wikipedia pour une vision plus large: [
     - tester différents modèles (plus) ouverts
     - modèles de raisonnement
 - **perplexity**: une alternative à chatGPT [lien](https://www.perplexity.ai/)
+- **mistal**: le chat, réputé champion français / champion français réputé [lien](https://chat.mistral.ai/)
 
 Les sites de comparaison directe de modèles:
 
@@ -489,19 +490,29 @@ Note: le test avec chatGPT est très concluant!
 
 Si le prompting s'est largement simplifié avec l'évolution des LLM grand public (ils intuitent beaucoup mieux les intentions utilisateurs)... Il reste un domaine critique: celui de la génération des images.
 
-
+La génération d'image est désactivée (ou très lente) sur différents LLM en version gratuite... Je vous conseille:
+- mistral, lmarena, éventuellement chatGPT (mais très lent)
 
 <div class="ex-box">
 
 Trouver un prompt permettant de générer l'image suivante
 
 <p align="center">
-  <img src="" alt="fig-gen">
+  <img src="ressources/genImage.jpg" alt="fig-gen" width="300px">
 </p>
 <ul>
-<li>On peut préciser la langue ou rajouter des élements dans le prompt ou dans les questions suivantes</li>
-<li>Si vous voulez ensuite générer de l'audio, différents outils existent: e.g. <a href="https://elevenlabs.io/app/speech-synthesis/text-to-speech"> lien </a> </li>
+<li>maximum de détails sur le contenu</li>
+<li>matériaux  (crayon, fusain, aquarelle, ...); type de feuille (grain...)</li>
+<li>style général (impressioniste, miyazaki)</li>
+<li>ambiance, couleurs dominantes...</li>
 </ul>
 
-Note: le test avec chatGPT est très concluant!
+Note: il y a un coté stochastique dans la génération qui empêche la reproduction exacte
 </div>
+
+## 8. Exploitation de documents & dialogue documentaire
+
+### 8.a Modèles connectés vs déconnectés
+
+Faire la part des choses entre la mémoire paramétrique et les capacités d'analyse des LLM
+
