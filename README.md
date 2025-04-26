@@ -343,7 +343,7 @@ Lien vers l'article original: <a href="https://arxiv.org/abs/2310.16696"> lien <
 Peux tu me faire un résumé très court, en vulgarisant pour un public non scientifique de la page suivante: [https://fr.wikipedia.org/wiki/Loi_binomiale_négative]
 
 <ul>
-<li>Donner à chatGPT l'URL entre [] pour lui indiquer la cible</li>
+<li>Donner à chatGPT l'URL entre [] pour lui indiquer la cible, il doit être connecté à internet (cf plus loin)</li>
 <li>Indiquer la longueur (e.g. très court)</li>
 <li>Indiquer le style (e.g. en vulgarisant pour un public non scientifique)</li>
 <li>Option: Illustrer avec un exemple en biologie moléculaire</li>
@@ -530,7 +530,7 @@ Peux-tu me faire une courte biographie de Vincent Guigue, professeur d'informati
 
 ### 8.b Dialogue avec un document
 
-Charger un document dans NotebookLM puis commencer les questions... ($\Rightarrow$ Ajouter une ressource)
+Charger un document dans NotebookLM [lien](https://notebooklm.google.com/) puis commencer les questions... ($\Rightarrow$ Ajouter une ressource)
 
 OPT 1: le rapport HCERES de l'IPS2: [lien](https://www.hceres.fr/sites/default/files/media/publications/rapports_evaluations/pdf/E2026-EV-0912408Y-DER-ER-DER-PUR260024983-SVE2-IPS2-RF.pdf)
 
@@ -542,7 +542,37 @@ OPT 2: un poly de statistiques (e.g., celui d'A. Guyader): [lien](https://perso.
 <li>Générer un court résumé</li>
 <li>Fais moi un quizz de 30 questions pour que le joueur connaisse mieux l'organisation et les thèmes de recherche de l'IPS2</li>
 <li>Quelles sont les principales questions scientifiques pour les 5 prochaines années à l'IPS2</li>
+<li>L'usage le plus courant de notebookLM consiste à poser des questions très ciblées: e.g. quelle équipe de l'unité IPS2 est prévue d'être arrêtée et quand ?</li>
 </ul>
-➡️ Le coté multi-lingue fonctionne très bien: posez les questions dans la langue de votre choix!
+➡️ Le coté multi-lingue fonctionne très bien: posez les questions dans la langue de votre choix!<BR>
+➡️ Cliquer sur les liens pour vérifier les citations <BR>
+➡️ On peut mettre jusqu'à 50 documents en parallèle dans un projet.
 </div>
+
+Note : il faut démarrer un nouveau notebook quand on change de sujet.
+
+Sur un document *Guidelines* pour les projets Horizon: [lien](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf)
+
+<div class="ex-box">
+
+<ul>
+<li>Quelles sont les conditions de base pour monter un projet Horizon?</li>
+<li>A partir de combien de partenaires, de quelles natures (académique, industrielle), venant de combien de pays peut-on monter un projet?</li>
+</ul>
+
+</div>
+
+Ou avec des documents plus techniques, par exemple, l'article de base sur AlphaFold: [lien](https://www.science.org/doi/epdf/10.1126/science.abm4805) ou une version un peu plus détaillée [lien](https://www.nature.com/articles/s41586-021-03819-2.pdf).
+
+<div class="ex-box">
+
+<ul>
+<li> Discuter avec ce document</li>
+<li> Résumer et expliquer la méthode</li>
+<li> Vous pouvez demander les points forts et les points faibles de l'article... Même lui demander d'en faire une revue</li>
+</ul>
+➡️  Amusez-vous à générer un dialogue/podcast autour de l'article (bouton en haut à droite)
+</div>
+
+Il est amusant de constater que la fonction est aussi présente dans Acrobat Reader (version gratuite) mais limitée à un document.
 
