@@ -32,7 +32,7 @@ Vous pouvez copier-coller des morceau de wikipedia pour une vision plus large: [
     - tester différents modèles (plus) ouverts
     - modèles de raisonnement
 - **perplexity**: une alternative à chatGPT [lien](https://www.perplexity.ai/)
-- **mistal**: le chat, réputé champion français / champion français réputé [lien](https://chat.mistral.ai/)
+- **mistal**: le chat, réputé champion français [lien](https://chat.mistral.ai/)
 
 Les sites de comparaison directe de modèles:
 
@@ -502,7 +502,7 @@ Trouver un prompt permettant de générer l'image suivante
 </p>
 <ul>
 <li>maximum de détails sur le contenu</li>
-<li>matériaux  (crayon, fusain, aquarelle, ...); type de feuille (grain...)</li>
+<li>matériaux  (crayon, fusain, aquarelle, feutre, tag, ...); type de feuille (grain...)</li>
 <li>style général (impressioniste, miyazaki)</li>
 <li>ambiance, couleurs dominantes...</li>
 </ul>
@@ -515,4 +515,34 @@ Note: il y a un coté stochastique dans la génération qui empêche la reproduc
 ### 8.a Modèles connectés vs déconnectés
 
 Faire la part des choses entre la mémoire paramétrique et les capacités d'analyse des LLM
+
+<div class="ex-box">
+
+Quelles sont les nouvelles du jour?<BR>
+Peux-tu me faire une courte biographie de Vincent Guigue, professeur d'informatique?
+
+<ul>
+<li>[connecté] https://chatgpt.com/ ou https://www.perplexity.ai/</li>
+<li>[déconnecté] https://claude.ai/ ou https://huggingface.co/chat/</li>
+</ul>
+
+</div>
+
+### 8.b Dialogue avec un document
+
+Charger un document dans NotebookLM puis commencer les questions... ($\Rightarrow$ Ajouter une ressource)
+
+OPT 1: le rapport HCERES de l'IPS2: [lien](https://www.hceres.fr/sites/default/files/media/publications/rapports_evaluations/pdf/E2026-EV-0912408Y-DER-ER-DER-PUR260024983-SVE2-IPS2-RF.pdf)
+
+OPT 2: un poly de statistiques (e.g., celui d'A. Guyader): [lien](https://perso.lpsm.paris/~aguyader/files/teaching/M1/PolycopiePartie1.pdf)
+
+<div class="ex-box">
+
+<ul>
+<li>Générer un court résumé</li>
+<li>Fais moi un quizz de 30 questions pour que le joueur connaisse mieux l'organisation et les thèmes de recherche de l'IPS2</li>
+<li>Quelles sont les principales questions scientifiques pour les 5 prochaines années à l'IPS2</li>
+</ul>
+➡️ Le coté multi-lingue fonctionne très bien: posez les questions dans la langue de votre choix!
+</div>
 
