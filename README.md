@@ -2,8 +2,8 @@
 
 ## 0. Ressources de la partie séminaire
 
-Slides du matin : [lien](ressources/séminaire.pdf)<BR>
-Slides de l'après-midi: [lien](ressources/séminaire.pdf)
+Slides du matin : [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/séminaire.pdf)<BR>
+Slides de l'après-midi: [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/practical.pdf)
 
 ## 1. En pratique: se lancer avec un LLM
 
