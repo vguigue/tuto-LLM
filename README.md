@@ -1,6 +1,11 @@
 
 
-## 1. Se lancer avec un LLM
+## 0. Ressources de la partie séminaire
+
+Slides du matin : [lien](ressources/séminaire.pdf)<BR>
+Slides de l'après-midi: [lien](ressources/séminaire.pdf)
+
+## 1. En pratique: se lancer avec un LLM
 
 ### 1.a. Préliminaire: comprendre l'unité de base des LLM: le token
 
@@ -22,7 +27,7 @@ Vous pouvez copier-coller des morceau de wikipedia pour une vision plus large: [
 ### 1.b. Les LLMs sur les lesquels nous allons travailler
 
 <div class="ex-box">
-➡️ Vous pouvez ouvrir les 6 premiers dans des onglets: nous allons jouer avec dans la suite
+➡️ Vous pouvez ouvrir les 7 premiers dans des onglets: nous allons jouer avec dans la suite
 </div>
 
 - **chatGPT**: le modèle à l'origine de l'ouverture des LLM au grand public [lien](https://chatgpt.com/)
