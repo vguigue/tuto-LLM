@@ -85,7 +85,7 @@ Travaillons sur des exemples d'intérêt croissant: il notamment est très inté
 
 </div>
 
-## 3. Mettre en difficulté un modèle
+## A.3. Mettre en difficulté un modèle
 
 Ces modèles sont utiles (on va essayer de vous convaincre si ce n'est pas encore le cas)... Mais faillibles. 
 
@@ -107,18 +107,8 @@ DeepSeek R1) <BR>
 
 </div>
 
-### 3.b. Les résultats partiellement corrects
-<div class="ex-box">
-<ul>
-<!-- <li> Je voudrais une bibliographie sur les auto-encodeurs variationnels </li> -->
-<li> Je voudrais une bibliographie sur la technique CRISPR-CAS9 [remplacer par le terme technique de votre choix]</li>
-</ul>
 
-➡️ par exemple en sélectionnant le modèle  <tt>meta-llama/Llama-3.3-70B-Instruct</tt> dans l'interface Huggingface/ragarenn <BR> 
-Tester les différentes références: si >90% sont bonnes, que faut-il en conclure?
-</div>
-
-### 3.c.Les ambiguités...
+### 3.b.Les ambiguités...
 <div class="ex-box">
 
 <ul>
@@ -132,7 +122,7 @@ Tester les différentes références: si >90% sont bonnes, que faut-il en conclu
 ➡️ ambiguités sur les mots et/ou sur les intentions de l'utilisateur: le chatbot ne peut pas deviner de quoi vous parlez ou le type de réponse que vous attendez (basique, scientifique, détaillée, ...).
 </div>
 
-### 3.d. La stabilité
+### 3.c. La stabilité
 
 Certifier des systèmes d'IA est une étape clé dans les systèmes critiques (Véhicule autonome, ...). Une des contraintes pour la certification est d'avoir un système stable: une petite variation en entrée doit correspondre à une petite variation en sortie sinon, il est impossible de tirer des conclusions des expériences (forcément partielles qui sont menées)
 
@@ -148,7 +138,7 @@ Certifier des systèmes d'IA est une étape clé dans les systèmes critiques (V
 
 
 
-## A.3. Alignement, censure ou ligne éditoriale?
+## A.4. Alignement, censure ou ligne éditoriale?
 
 L'IA n'est pas neutre, de nombreuses réponses sont *scriptées* et suivent donc une ligne éditoriale
 
@@ -169,7 +159,7 @@ L'IA n'est pas neutre, de nombreuses réponses sont *scriptées* et suivent donc
 </div>
 
 
-## A.4. Prompting
+## A.5. Prompting
 
 Apprendre à parler au modèle: donner un maximum de détails pour maximiser les chances d'obtenir une réponse satisfaisante:
 
@@ -179,7 +169,7 @@ Apprendre à parler au modèle: donner un maximum de détails pour maximiser les
 - Quelles sont les étapes pour répondre à la question?
 - Quel format de sortie?
 
-### 4.a Consigne détaillées : positionnement
+### 5.a Consigne détaillées : positionnement
 
 
 <div class="ex-box">
@@ -197,7 +187,7 @@ Apprendre à parler au modèle: donner un maximum de détails pour maximiser les
 
 Note: **le prompting est assez largement sur-coté**, de moins en moins critique et les utilisateurs en font naturellement en quelques heures de pratiques, à la manière de Monsieur Jourdain.
 
-### 4.b Consigne détaillées : intention de l'utilisateur
+### 5.b Consigne détaillées : intention de l'utilisateur
 
 Soit un article sur le cancer du sein (trouvé au hasard et remplaçable par la référence de votre choix):
 [https://pmc.ncbi.nlm.nih.gov/articles/PMC11444406/pdf/pone.0309421.pdf]
@@ -220,7 +210,7 @@ Article: https://pmc.ncbi.nlm.nih.gov/articles/PMC11444406/pdf/pone.0309421.pdf 
 
 
 
-### 4.c Génération d'image
+### 5.c Génération d'image
 
 Si le prompting s'est largement simplifié avec l'évolution des LLM grand public (ils intuitent beaucoup mieux les intentions utilisateurs)... Il reste un domaine critique: celui de la génération des images.
 
@@ -244,12 +234,27 @@ Trouver un prompt permettant de générer l'image suivante (SANS donner l'image 
 Note: il y a un coté stochastique dans la génération qui empêche la reproduction exacte
 </div>
 
-## 5. Imposer le format de sortie
 
-### 5.a. Il est possible de jouer avec le format de sortie:
+### 5.d Utiliser un LLM pour apprendre à utiliser un LLM
 
-- réponses plus courtes, longues, plus soutenues, avec des mots plus simple, pour un enfant...
-- et avec un formatage avancé
+Le LLM est un formidable outil de formation:
+
+<div class="ex-box">
+
+Sur un exemple
+
+<ul>
+<li>Peux tu m'aider à comprendre le prompting?</li>
+</ul>
+
+</div>
+
+## A.6. Imposer le format de sortie
+
+### 6.a. Il est possible de jouer avec le format de sortie:
+
+- réponses plus courtes, longues, plus soutenues, avec des mots plus simple, pour un enfant... C'est le prompting dont nous venons de parler.
+- on peut aussi imposer un formatage avancé
 
 <div class="ex-box">
 
@@ -264,7 +269,7 @@ ou archi-sèches? combien y a-t-il de noms communs? </li>
 
 </div>
 
-### 5.b. Vers des chaînes de traitements
+### 6.b. Vers des chaînes de traitements
 
 
 <div class="ex-box">
@@ -305,7 +310,7 @@ The European Commission said on Thursday it disagreed with German advice to cons
 
 **Après la séance, de manière optionnelle.** Des idées de prompts pour bien extraire des entités (GPT NER): [lien](https://arxiv.org/pdf/2305.15444) 
 
-### 5.c. Chaine de traitements de documents pdf 
+### 6.c. Chaine de traitements de documents pdf 
 
 Et si on traitait un fichier pdf (avec chatGPT, en faisant un glisser-déposer du fichier dans le prompt)?
 Vous pouvez utiliser le sujet ci-dessous ou n'importe quel sujet ou fichier court (2-3 pages max) que vous avez écrit récemment, en modifiant éventuellement les questions.

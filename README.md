@@ -61,8 +61,7 @@ Les LLM en mode RAG, pour dialoguer avec des documents:
 
 [Deuxième session pratique](partiepedago)
 
-## B. Session 3: première session
+## C. Session 3: Mise en forme des idées, analyse de documents longs
 
-
-[Troisième session pratique](partie2)
+[Troisième session pratique](partiedoc)
 
