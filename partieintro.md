@@ -41,9 +41,9 @@ Quelques recherches basiques (n'hésitez pas vous écarter des propositions et p
 </ul>
 
 ➡️ Vous pouvez comparer le fait de poser les questions en Français ou en anglais
-
+<BR>
 ➡️ Tester avec le comparateur du gouvernement... Pour comparer les résultats et les consommations (mais il ne tient pas bien la charge... Vous pouvez utiliser les outils Ragarenn/Huggingface et changer de modèles)
-
+<BR>
 ➡️ Plus on cherche des informations précises/spécifiques, plus on a besoin d'un *gros* modèle (# param <span style="font-size: 24px;">&prop;</span> mémoire paramétrique)
 </div>
 
@@ -59,9 +59,10 @@ Comparer les deux protocoles suivants:
 <ul>
 <li> req 1= "JFK est mort en" + req 2="Jacques Chirac" </li>
 <li> DANS UNE NOUVELLE CONVERSATION: "Jacques Chirac"</li>
+</ul>
 
 ➡️ Ne pas oublier de réinitialiser les conversations lorsque vous changez de thème sous peine d'introduire une grande confusion dans le LLM.
-</ul>
+
 
 </div>
 
@@ -71,28 +72,30 @@ Les LLM généralistes (que nous utilisons aujourd'hui) sont très doués pour l
 
 
 <div class="ex-box">
-Travaillons sur des exemples d'intérêt croissant: il notamment est très intéressant de traduire un document technique en conservant le format.
+Travaillons sur des exemples d'intérêt croissant: il notamment est très intéressant de traduire un document technique en conservant le format (utiliser un LLM acceptant les fichiers comme ragarenn ou chatgpt pour cette tâche).
 
 <ul>
 <li> Traduire en anglais : les LLM maximisent la vraisemblance mais n'ont pas de notion de véracité. </li>
 <li> Traduire en anglais: il pleut des cordes</li>
-<li> Traduire le fichier suivant en conservant le format latex <a href=""> Lien vers reco.tex</a> </li>
+<li> Traduire le fichier suivant en anglais en conservant le format latex <a href=""> Lien vers reco.tex</a> </li>
+</ul>
 
 ➡️ Jouer dans votre domaine, avec un vocabulaire technique susceptible de prendre en défaut le LLM
-</ul>
+
 
 </div>
 
 ## 3. Mettre en difficulté un modèle
 
-Ces modèles sont utiles (on va essayer de vous convaincre si ce n'est pas encore le cas)... Mais faillibles. Etudions les erreurs, les ambiguités...
+Ces modèles sont utiles (on va essayer de vous convaincre si ce n'est pas encore le cas)... Mais faillibles. 
+
+### 3.a. Etudions les erreurs
 
 <div class="ex-box">
 
-
 <ul>
 <li> Trouver une liste de 10 animaux en 4 syllabes </li>
-<li> 124578 * 963 (note: le résultat est: 119,968,614)</li>
+<li> 124578 * 963 (note: le résultat correct est 119,968,614)</li>
 
 </ul>
 
@@ -104,15 +107,18 @@ DeepSeek R1) <BR>
 
 </div>
 
+### 3.b. Les résultats partiellement corrects
 <div class="ex-box">
 <ul>
 <!-- <li> Je voudrais une bibliographie sur les auto-encodeurs variationnels </li> -->
 <li> Je voudrais une bibliographie sur la technique CRISPR-CAS9 [remplacer par le terme technique de votre choix]</li>
 </ul>
 
-➡️ avec <tt>meta-llama/Llama-3.3-70B-Instruct</tt> Tester les différentes références: si >90% sont bonnes, que faut-il en conclure?
+➡️ par exemple en sélectionnant le modèle  <tt>meta-llama/Llama-3.3-70B-Instruct</tt> dans l'interface Huggingface/ragarenn <BR> 
+Tester les différentes références: si >90% sont bonnes, que faut-il en conclure?
 </div>
 
+### 3.c.Les ambiguités...
 <div class="ex-box">
 
 <ul>
@@ -125,6 +131,21 @@ DeepSeek R1) <BR>
 
 ➡️ ambiguités sur les mots et/ou sur les intentions de l'utilisateur: le chatbot ne peut pas deviner de quoi vous parlez ou le type de réponse que vous attendez (basique, scientifique, détaillée, ...).
 </div>
+
+### 3.d. La stabilité
+
+Certifier des systèmes d'IA est une étape clé dans les systèmes critiques (Véhicule autonome, ...). Une des contraintes pour la certification est d'avoir un système stable: une petite variation en entrée doit correspondre à une petite variation en sortie sinon, il est impossible de tirer des conclusions des expériences (forcément partielles qui sont menées)
+
+<div class="ex-box">
+
+<ul>
+<li> Quel est l'age de Barack Obama </li>
+<li> Quel est l'age de Barack Obama ?</li>
+</ul>
+
+➡️ L'ajout du point d'intérrogation change-t-il la réponse? reste-t-elle correcte?
+</div>
+
 
 
 ## A.3. Alignement, censure ou ligne éditoriale?
@@ -158,46 +179,25 @@ Apprendre à parler au modèle: donner un maximum de détails pour maximiser les
 - Quelles sont les étapes pour répondre à la question?
 - Quel format de sortie?
 
-### 4.a positionnement
+### 4.a Consigne détaillées : positionnement
 
-Si le prompting s'est largement simplifié avec l'évolution des LLM grand public (ils intuitent beaucoup mieux les intentions utilisateurs)... Il reste un domaine critique: celui de la génération des images.
-
-La génération d'image est désactivée (ou très lente) sur différents LLM en version gratuite... Je vous conseille:
-- mistral, lmarena, éventuellement chatGPT (mais très lent)
-
-<div class="ex-box">
-
-Trouver un prompt permettant de générer l'image suivante
-
-<p align="center">
-  <img src="ressources/genImage.jpg" alt="fig-gen" width="300px">
-</p>
-<ul>
-<li>maximum de détails sur le contenu</li>
-<li>matériaux  (crayon, fusain, aquarelle, feutre, tag, ...); type de feuille (grain...)</li>
-<li>style général (impressioniste, miyazaki)</li>
-<li>ambiance, couleurs dominantes...</li>
-</ul>
-
-Note: il y a un coté stochastique dans la génération qui empêche la reproduction exacte
-</div>
 
 <div class="ex-box">
 
 <ul>
 <li> Faire une courte biographie de Barbara McClintock [=<span style="color:red"> XXX </span> quelqu'un de celèbre dans votre domaine <span style="color:blue"> DDD </span> pour une recherche <span style="color:green"> RRR </span>]</li>
-<li> Je suis chercheur en bio-informatique [=<span style="color:blue"> DDD </span>], je veux comprendre en détail les découvertes de Barbara McClintock [<span style="color:red"> XXX </span>] sur les petits ARNS chez les plantes [ <span style="color:green"> RRR </span>]. Je voudrais  quelques références bibliographiques pour appuyer les principales découvertes. Je voudrais un paragraphe sur les impacts actuels de ses recherches </li>
-<li>Je suis un étudiant en bio-informatique. Je veux une courte introduction d'article sur les petits ARNS dans les plantes faisant référence à Barbara McClintock. Style: article scientifique en anglais </li>
-<li>Je suis un adolescent sans connaissance biologique particulière, explique moi les petits ARNS dans les plantes </li>
+<li> Je suis chercheur en bio-informatique [=<span style="color:blue"> DDD </span>], je veux comprendre en détail les découvertes de Barbara McClintock [<span style="color:red"> XXX </span>] sur les petits ARNS chez les plantes [ <span style="color:green"> RRR </span>]. Je voudrais  quelques références bibliographiques pour appuyer les principales découvertes. Je voudrais un paragraphe sur les impacts actuels de ses recherches. </li>
+<li>Je suis un étudiant en bio-informatique. Je veux une courte introduction d'article sur les petits ARNS dans les plantes faisant référence à Barbara McClintock. Style: article scientifique en anglais. </li>
+<li>Je suis un adolescent sans connaissance biologique particulière, explique moi les petits ARNS dans les plantes. </li>
 </ul> 
 
 ➡️ Le point de vue et le contexte sont critiques pour obtenir une réponse adaptée
 
 </div>
 
-Note: le prompting est largement sur-coté, de moins en moins critique et les utilisateurs en font naturellement en quelques heures de pratiques (à la manière de M. Jourdain)
+Note: **le prompting est assez largement sur-coté**, de moins en moins critique et les utilisateurs en font naturellement en quelques heures de pratiques, à la manière de Monsieur Jourdain.
 
-### 4.b Consigne détaillées
+### 4.b Consigne détaillées : intention de l'utilisateur
 
 Soit un article sur le cancer du sein (trouvé au hasard et remplaçable par la référence de votre choix):
 [https://pmc.ncbi.nlm.nih.gov/articles/PMC11444406/pdf/pone.0309421.pdf]
@@ -213,6 +213,7 @@ Article: https://pmc.ncbi.nlm.nih.gov/articles/PMC11444406/pdf/pone.0309421.pdf 
 
 </ul> 
 
+➡️ Il est possible de télécharger le fichier et de le donner explicitement au LLM s'il accepte les fichiers extérieurs ou de lui donner l'URL directement (si le LLM est connecté à internet)<BR>
 ➡️ L'intention de l'utilisateur est importante pour orienter la réponse et très dure/impossible à deviner pour le LLM
 
 </div>
@@ -228,7 +229,7 @@ La génération d'image est désactivée (ou très lente) sur différents LLM en
 
 <div class="ex-box">
 
-Trouver un prompt permettant de générer l'image suivante
+Trouver un prompt permettant de générer l'image suivante (SANS donner l'image au LLM, ce serait de la triche!)
 
 <p align="center">
   <img src="ressources/genImage.jpg" alt="fig-gen" width="300px">
@@ -258,6 +259,9 @@ ou archi-sèches? combien y a-t-il de noms communs? </li>
 <li> Construire un fichier JSON avec la liste des noms communs et des adjectifs à partir de la phrase : Les chaussettes de l'archiduchesse sont-elles sèches ou archi-sèches?
 </li>
 </ul> 
+
+➡️ vous pouvez demander un simple liste si vous n'êtes pas familié des formats informatiques JSON, XML, ...
+
 </div>
 
 ### 5.b. Vers des chaînes de traitements
@@ -319,6 +323,6 @@ Construire un JSON à partir du document pdf suivant listant:<BR>
 
 </div>
 
-### 5.d. Approfondir les prompts (en dehors de cette session de formation)
+## Approfondir les prompts (en dehors de cette session de formation)
 
 Pour aller plus loin avec le prompt: [lien](https://docs.anthropic.com/fr/prompt-library/library)
