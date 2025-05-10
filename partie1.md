@@ -29,20 +29,19 @@ Mettre en évidence la gestion des langues en tokenisant:
 ### 2.a. Etudier les différences entre modèles
 
 <div class="ex-box">
-Quelques recherches basiques (n'hésitez pas vous écarter des propositions et poser des questions techniques dans votre domaine d'expertise). 
+Quelques recherches basiques (n'hésitez pas vous écarter des propositions et poser des questions techniques dans votre domaine d'expertise: CRISPR-Cas9, loi de Poisson log normale, auto-encodeur variationnel...) 
 
 <ul>
 <li> JFK est mort en </li>
 <li> Après un import raté dans excel, comment convertir une colonne pour retrouver les bons séparateurs?  </li>
 <li> Dans Powerpoint, comment faire une animation ? </li>
 <li> Quelles sont les bases du format FASTA? </li>
-<li> Quelles sont les usages de la loi binomiale négative? / What are the applications of the negative binomial distribution?</li>
-<li>Qui a écrit petit pays? </li>
+<li> Quelle est la référence biblio primaire de CRISPR-Cas9? </li>
 </ul>
 
 ➡️ Vous pouvez comparer le fait de poser les questions en Français ou en anglais
 
-➡️ Tester avec le comparateur du gouvernement... Pour comparer les résultats et les consommations (mais il ne tient pas bien la charge... Vous pouvez utiliser les outils Ragarenn/Huggingface et changer de modèles)
+➡️ Tester avec le comparateur du gouvernement... Pour comparer les résultats et les consommations (mais il ne tient pas bien la charge...)
 
 ➡️ Plus on cherche des informations précises/spécifiques, plus on a besoin d'un *gros* modèle (# param <span style="font-size: 24px;">&prop;</span> mémoire paramétrique)
 </div>
@@ -65,25 +64,8 @@ Comparer les deux protocoles suivants:
 
 </div>
 
-### 2.c. Traduction
 
-Les LLM généralistes (que nous utilisons aujourd'hui) sont très doués pour la traduction... Mais moins doué et adaptable que des outils spécifiques comme deepl: [lien](https://www.deepl.com/fr/translator)
-
-
-<div class="ex-box">
-Travaillons sur des exemples d'intérêt croissant: il notamment est très intéressant de traduire un document technique en conservant le format.
-
-<ul>
-<li> Traduire en anglais : les LLM maximisent la vraisemblance mais n'ont pas de notion de véracité. </li>
-<li> Traduire en anglais: il pleut des cordes</li>
-<li> Traduire le fichier suivant en conservant le format latex <a href=""> Lien vers reco.tex</a> </li>
-
-➡️ Jouer dans votre domaine, avec un vocabulaire technique susceptible de prendre en défaut le LLM
-</ul>
-
-</div>
-
-## 3. Mettre en difficulté un modèle
+### 2.c. Mettre en difficulté un modèle
 
 Ces modèles sont utiles (on va essayer de vous convaincre si ce n'est pas encore le cas)... Mais faillibles. Etudions les erreurs, les ambiguités...
 
@@ -110,7 +92,8 @@ DeepSeek R1) <BR>
 <li> Je voudrais une bibliographie sur la technique CRISPR-CAS9 [remplacer par le terme technique de votre choix]</li>
 </ul>
 
-➡️ avec <tt>meta-llama/Llama-3.3-70B-Instruct</tt> Tester les différentes références: si >90% sont bonnes, que faut-il en conclure?
+➡️ Dans l'interface Huggingface, il est possible de sélectionner le LLM de votre choix en cliquant sur la petite roue dengrenage (=paramètres)
+avec <tt>meta-llama/Llama-3.3-70B-Instruct</tt> Tester les différentes références: si >90% sont bonnes, que faut-il en conclure?
 </div>
 
 <div class="ex-box">
@@ -123,7 +106,7 @@ DeepSeek R1) <BR>
 <li> Pourquoi le ciel est bleu? </li>
 </ul>
 
-➡️ ambiguités sur les mots et/ou sur les intentions de l'utilisateur: le chatbot ne peut pas deviner de quoi vous parlez ou le type de réponse que vous attendez (basique, scientifique, détaillée, ...).
+➡️ ambiguités sur les mots et/ou sur les intentions de l'utilisateur: le chatbot ne peut pas deviner de quoi vous parlez ou le type de réponse que vous attendez
 </div>
 
 
@@ -146,7 +129,6 @@ L'IA n'est pas neutre, de nombreuses réponses sont *scriptées* et suivent donc
 ➡️ Tenter avec différents modèles pour mettre en évidence des différences; dans tous les cas, le système a tendance à ne pas répondre directement à la question: il faut s'intérroger sur l'origine de la réponse.
 
 </div>
-
 
 ## A.4. Prompting
 
@@ -213,7 +195,7 @@ Article: https://pmc.ncbi.nlm.nih.gov/articles/PMC11444406/pdf/pone.0309421.pdf 
 
 </ul> 
 
-➡️ L'intention de l'utilisateur est importante pour orienter la réponse et très dure/impossible à deviner pour le LLM
+➡️ L'intention de l'utilisateur est importante et très dure à devnier pour le LLM
 
 </div>
 

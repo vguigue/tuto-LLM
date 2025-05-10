@@ -13,13 +13,15 @@ Slides de l'après-midi: [lien](https://github.com/vguigue/tuto-LLM/blob/main/re
 <div class="ex-box">
 ➡️ Vous pouvez ouvrir les 7 premiers dans des onglets: nous allons jouer avec dans la suite
 </div>
+<BR>
+<BR>
 
 - **Ragarenn** [lien](https://ragarenn.eskemm-numerique.fr/demo@institut-agro/app) / **aristote**: pour un dialogue sécurisé (accès avec des identifiant académique) [lien](https://chat.aristote.education)
 - **chatGPT**: le modèle à l'origine de l'ouverture des LLM au grand public [lien](https://chatgpt.com/)
     - lien avec internet
     - possibilité de générer des images
 - **huggingface**: directement lié à la bibliothèque qu'utilise les chercheurs [lien](https://huggingface.co/chat/)
-    - tester différents modèles (plus) ouverts
+    - tester différents modèles (plus) ouverts (il est possible de sélectionner le LLM de votre choix en cliquant sur la petite roue dengrenage (=paramètres))
     - modèles de raisonnement
     - **ATTENTION:** il faut commencer à taper une requête pour voir l'écran de connexion apparaitre.
 - **perplexity**: une alternative à chatGPT [lien](https://www.perplexity.ai/)
@@ -51,12 +53,16 @@ Les LLM en mode RAG, pour dialoguer avec des documents:
 
 
 
-## A. Session 1: première session
+## A. Session 1: Prise en main, identification des forces et faiblesses
 
-[Première session pratique](partie1)
+[Première session pratique](partieintro)
 
-## B. Session 2: première session
+## B. Session 2. Exercices orientés pédagogie et recherche
+
+[Deuxième session pratique](partiepedago)
+
+## B. Session 3: première session
 
 
-[Deuxième session pratique](partie2)
+[Troisième session pratique](partie2)
 

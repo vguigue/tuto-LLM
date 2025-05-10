@@ -1,83 +1,4 @@
 
-## 5. Imposer le format de sortie
-
-### 5.a. Il est possible de jouer avec le format de sortie:
-
-- réponses plus courtes, longues, plus soutenues, avec des mots plus simple, pour un enfant...
-- et avec un formatage avancé
-
-<div class="ex-box">
-
-<ul>
-<li> Dans la phrase: Les chaussettes de l’archiduchesse sont-elles sèches
-ou archi-sèches? combien y a-t-il de noms communs? </li>
-<li> Construire un fichier JSON avec la liste des noms communs et des adjectifs à partir de la phrase : Les chaussettes de l'archiduchesse sont-elles sèches ou archi-sèches?
-</li>
-</ul> 
-</div>
-
-### 5.b. Vers des chaînes de traitements
-
-
-<div class="ex-box">
-
-Soit la phrase:<BR>
-La Commission européenne a déclaré jeudi qu'elle n'était pas d'accord avec les conseils donnés par l'Allemagne aux consommateurs d'éviter l'agneau britannique tant que les scientifiques n'auront pas déterminé si la maladie de la vache folle peut être transmise aux moutons.
-
-
-<ul>
-<li> Extraire les entités avec leur type : lieu, personne, organisation, date </li>
-<li> Formater le résultat en JSON
-</li>
-</ul> 
-
-➡️ Les réponses sont-elles de qualités équivalentes avec et sans contraintes de formatage?
-
-</div>
-
-On peut aussi comparer le résultat avec l'anglais:
-
-<div class="ex-box">
-
-Soit la phrase:<BR>
-The European Commission said on Thursday it disagreed with German advice to consumers to shun British lamb until scientists determine whether mad cow disease can be transmitted to sheep.
-
-
-<ul>
-<li> Extract the following entities with their types : (place, person, organisation, date)
-</li>
-<li>            
- Format the output in JSON
-</li>
-</ul> 
-
-➡️ Les réponses sont-elles de qualités équivalentes dans les deux langues?
-
-</div>
-
-**Après la séance, de manière optionnelle.** Des idées de prompts pour bien extraire des entités (GPT NER): [lien](https://arxiv.org/pdf/2305.15444) 
-
-### 5.c. Chaine de traitements de documents pdf 
-
-Et si on traitait un fichier pdf (avec chatGPT, en faisant un glisser-déposer du fichier dans le prompt)?
-Vous pouvez utiliser le sujet ci-dessous ou n'importe quel sujet ou fichier court (2-3 pages max) que vous avez écrit récemment, en modifiant éventuellement les questions.
-
-Soit le document: [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/sujet.pdf)
-
-
-<div class="ex-box">
-
-Construire un JSON à partir du document pdf suivant listant:<BR>
-- le titre de la thèse<BR>
-- le nom du candidat<BR>
-- une liste de mots clés<BR>
-- un résumé en quelques mots du sujet
-
-</div>
-
-### 5.d. Approfondir les prompts (en dehors de cette session de formation)
-
-Pour aller plus loin avec le prompt: [lien](https://docs.anthropic.com/fr/prompt-library/library)
 
 
 ## 6. Mise en forme des données brutes
@@ -328,29 +249,7 @@ Rédiger un poème sur les petits ARN, la réponse des plantes aux stress enviro
 Note: le test avec chatGPT est très concluant!
 </div>
 
-### 7.d Génération d'image
 
-Si le prompting s'est largement simplifié avec l'évolution des LLM grand public (ils intuitent beaucoup mieux les intentions utilisateurs)... Il reste un domaine critique: celui de la génération des images.
-
-La génération d'image est désactivée (ou très lente) sur différents LLM en version gratuite... Je vous conseille:
-- mistral, lmarena, éventuellement chatGPT (mais très lent)
-
-<div class="ex-box">
-
-Trouver un prompt permettant de générer l'image suivante
-
-<p align="center">
-  <img src="ressources/genImage.jpg" alt="fig-gen" width="300px">
-</p>
-<ul>
-<li>maximum de détails sur le contenu</li>
-<li>matériaux  (crayon, fusain, aquarelle, feutre, tag, ...); type de feuille (grain...)</li>
-<li>style général (impressioniste, miyazaki)</li>
-<li>ambiance, couleurs dominantes...</li>
-</ul>
-
-Note: il y a un coté stochastique dans la génération qui empêche la reproduction exacte
-</div>
 
 ## 8. Exploitation de documents & dialogue documentaire
 
