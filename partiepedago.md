@@ -22,7 +22,15 @@ Tester les différentes références: si >90% sont bonnes, que faut-il en conclu
 ➡️ Ca vaut le coup de refaire l'expérience sur un domaine plus pointu (moins général) pour avoir plus d'hallucinations... Il faut aussi différentier le mode LLM (mémoire paramétrique) et le mode RAG (sur chatGPT par exemple).
 </div>
 
+<div class="ex-box">
+Générer une bibliographie sur la technique CRISPR-Cas9: distinguer les références qui précèdent cette technique, les références qui fondent CRISPR-Cas9 et les avancées récentes sur ces architectures
+<ul>
+<li>Remplacer le CRISPR-Cas9 par ce que vous voulez</li>
 
+</ul>
+
+➡️ Encore et toujours une histoire de véracité: il faut vérifier que les références existent... Et sont bien pertinentes!
+</div>
 
 ### 1.b Usage en bibliographie : identifier une source primaire
 
@@ -148,21 +156,103 @@ Le LLM est une sorte de prof disponible 24/7 à qui on peut poser toutes les que
 
 <ul>
 <li> Quelles sont les questions les plus classiques dans un cours de physique sur la refraction?</li>
-<li> </li>
+<li> Dans le cadre d'un cours de L2 informatiques sur l'algorithmique, nous avons une interrogation sur le tri des listes, quelles sont les questions les plus probables?</li>
 </ul>
-
+➡️ Evidemment, on peut demander des précisions et/ou des réponses pour vérifier
 </div>
 
 
 
 ### 4.c Traiter directement un énoncé
 
+L'usage classique des étudiants (peu apprécié par le corps enseignant).
+Soit le fichier d'examen suivant [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/quizz.pdf).
+
+<div class="ex-box">
+En fournissant le fichier (ou son URL)
+<ul>
+<li> Donner les réponses des questions de cet examen de machine learning</li>
+</ul>
+➡️ N'hésitez pas à faire le test avec vos examens... 
+</div>
+
 ### 4.d Détecter les tricheurs
 
-## B.5. Traduction
+Il existe des outils de détection (statistique) des textes générés par des IA, par exemple [GPTzero](https://gptzero.me/); [zeroGPT](https://www.zerogpt.com/); [lien](https://copyleaks.com/ai-content-detector)
 
-## B.6. Analyse automatique de dossier (e.g. MonMaster)
+<div class="ex-box">
+Soit l'énoncé jouet [remplacable par ce que vous voulez]:<BR> Expliquer brièvement le fonctionnement d'un algorithme de classification (2 classes) Naive Bayes basé sur une modélisation de Bernoulli.
 
-### 6.a Quelques questions sur une lettre de motivation
+<ul>
+<li> Donner l'énoncé à un LLM et copier la réponse</li>
+<li> Aller sur GPT Zero et coller dans la boite</li>
+<li> Que se passe-t-il si vous demandez au LLM de reformuler sa réponse (ou que vous le faites à la main):<BR> Reformuler la réponse sans les formules et avec des phrases plus simple tout en gardant les mots clés techniques. Ajouter quelques fautes d'orthographes.</li>
+<li> Que se passe-t-il lorsque vous donnez un paragraphe de wikipedia? Par exemple tiré de <a href="https://fr.wikipedia.org/wiki/Wikipédia:Accueil_principal">lien<a></li>
+</ul>
+➡️ Comment analyser ces chiffres? Comment s'en servir?
+</div>
 
-### 6.b 
+
+## B.5. Analyse automatique de dossier (e.g. MonMaster)
+
+La réforme *TrouverMonMaster*, discutable dans ses hypothèses, sa mise en oeuvre et ses conséquences, nous pousse à trouver des solutions originales pour analyser les lettres de motivation...
+
+### 5.a Quelques questions sur une lettre de motivation
+
+
+<div class="ex-box">
+A partir du fichier <a href="https://github.com/vguigue/tuto-LLM/blob/main/ressources/notes.txt">lien</a>, l'idée est de poser des questions pour remplir un formulaire.
+
+Voici des exemples de questions
+
+<ul>
+<li> Analyser la lettre suivante en répondant à la liste de questions</li>
+<li> Le candidat demande-t-il le master MIND?</li>
+<li> Le candidat a-t-il fait des projets en IA? Donner les titres.</li>
+<li> Le candidat a-t-il fait des stages en IA en entreprise? En laboratoire académique?</li>
+<li> Demander les résultats en JSON, analyser un pdf...</li>
+</ul>
+➡️ Il faut imaginer l'usage de LLM locaux <a href="https://ollama.com">type ollama</a> et de bibliothèque de lecture de pdf <a href="https://pypdf.readthedocs.io">type pypdf</a> dans des outils comme <a href="https://www.langchain.com/">langchain</a> ... Avec un LLM pour vous guider, vous pouvez développer un outil rapidement.
+</div>
+
+
+
+### 5.b Analyser des bulletins de notes / OCR
+
+Les techniques d'OCR (extraction de textes) ont significativement progressé avec les LLM. On pourrait envisager de nouvelles applications sur les candidatures.
+
+
+
+<div class="ex-box">
+Dans le document suivant: <a href="https://github.com/vguigue/tuto-LLM/blob/main/ressources/couverture.jpeg">lien</a>
+
+<ul>
+<li> Analyser l'image suivante pour trouver l'éditeur et l'année de publication</li>
+</ul>
+➡️ Les derniers modèles Llama sont capables de réaliser ces opérations localement (=sur votre -gros- ordinateur) <BR>
+➡️ Sur un bulletin de notes, il faut retrouver l'année d'étude, regrouper les matières par domaines (les noms variants d'une licence à l'autre) puis remplir un formulaire...<BR>
+➡️ Plus on pose des questions précises, plus on guide l'extraction qui gagne en performance.
+</div>
+
+
+## B.6.  Générations amusantes
+
+<div class="ex-box">
+Trouver un acronyme pour un projet de recherche sur les petits ARN: l'idée est d'optimiser la réponse des plantes aux stress environnementaux avec de l'IA
+
+<ul>
+<li>On peut spécifier la langue (le LLM part vers l'anglais ou le franglais par défaut)</li>
+
+</ul>
+</div>
+
+<div class="ex-box">
+
+Rédiger un poème sur les petits ARN, la réponse des plantes aux stress environnementaux, les perspectives d'utilisation de l'IA pour le futur. Les rimes seront croisées.
+<ul>
+<li>On peut préciser la langue ou rajouter des élements dans le prompt ou dans les questions suivantes</li>
+<li>Si vous voulez ensuite générer de l'audio, différents outils existent: e.g. <a href="https://elevenlabs.io/app/speech-synthesis/text-to-speech"> lien </a> </li>
+</ul>
+
+Note: le test avec chatGPT est très concluant!
+</div>

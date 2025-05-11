@@ -136,6 +136,20 @@ Certifier des systèmes d'IA est une étape clé dans les systèmes critiques (V
 ➡️ L'ajout du point d'intérrogation change-t-il la réponse? reste-t-elle correcte?
 </div>
 
+### 3.d. Les biais
+
+Tout apprentissage statistique est biaisé... Cependant, certains biais sont problématiques (genre, social, origine ethnique, ...).
+
+<div class="ex-box">
+En profitant de l'anglais (non genré), demandons la traduction en français suivante:
+<ul>
+<li> The nurse and the doctor </li>
+<li> Vous pouvez vous amuser à demander la génération d'une image pour voir d'autre biais (e.g. posture, origine ethnique) <li>
+</ul>
+
+➡️ Note: en général, ça marche aussi avec les humains :)<BR>
+Ces questions sont multiples et difficiles, on peut se référer à différentes sources, par exemple: <a href="https://www.rapidtranslate.org/fr/resources/what-is-biased-language">lien</a>
+</div>
 
 
 ## A.4. Alignement, censure ou ligne éditoriale?
