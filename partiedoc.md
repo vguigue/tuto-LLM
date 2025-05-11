@@ -1,9 +1,10 @@
+## Session C: mise en forme des idées
 
+[Retour à la page principale](README.md)
 
+## C.1. Mise en forme des données brutes
 
-## 6. Mise en forme des données brutes
-
-### 6.a. Passer d'un texte à un format tabulaire
+### 1.a. Passer d'un texte à un format tabulaire
 
 Soit le texte suivant [lien](https://fr.wikipedia.org/wiki/Agriculture_en_France#Occupation_des_sols_et_du_territoire)
 
@@ -18,7 +19,7 @@ Construire un tableau à l'aide du prompt suivant:
 
 </div>
 
-### 6.b. Copier-coller de tableaux bruts (uniquement pour les utilisateurs de latex)
+### 1.b. Copier-coller de tableaux bruts (uniquement pour les utilisateurs de latex)
 
 Soit le tableau suivant [lien](https://fr.wikipedia.org/wiki/Agriculture_en_France#Productions_agricoles)
 
@@ -32,7 +33,7 @@ Construire un tableau latex à l'aide du prompt suivant:
 
 </div>
 
-### 6.c Lettre de motivation / recommandation
+### 1.c Lettre de motivation / recommandation
 
 CV (fictif) : [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/CV_Vincent_Guigue.pdf)<BR>
 Offre de thèse (fictive) : [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/sujet.pdf)
@@ -62,7 +63,7 @@ Pour enrichir la lettre dans un second temps
 
 </div>
 
-### 6.d Ecrire un paragraphe (introduction) d'article scientifique
+### 1.d Ecrire un paragraphe (introduction) d'article scientifique
 
 La démarche consiste à donner tous les éléments (ou presque) au modèle de langue sous forme de liste de mots-clés ou de bouts de phrases
 
@@ -99,7 +100,7 @@ Bonus: Proposer une bibliographie pour chacun des paragraphes
 Lien vers l'article original: <a href="https://arxiv.org/abs/2310.16696"> lien </a>
 </div>
 
-### 6.e. Résumer, reformuler et améliorer
+### 1.e. Résumer, reformuler et améliorer
 
 <div class="ex-box">
 
@@ -128,7 +129,7 @@ Récupérer un paragraphe: [lien](https://github.com/vguigue/tuto-LLM/blob/main/
 
 </div>
 
-### 6.f. Compte rendu de réunion
+### 1.f. Compte rendu de réunion
 
 Mise en forme des notes prises rapidement lors d'une réunion 
 
@@ -149,9 +150,9 @@ Construire un compte rendu de réunion à partir des notes suivantes
 
 
 
-## 8. Exploitation de documents & dialogue documentaire
+## C.2. Exploitation de documents & dialogue documentaire
 
-### 8.a Modèles connectés vs déconnectés
+### 2.a Modèles connectés vs déconnectés
 
 Faire la part des choses entre la mémoire paramétrique et les capacités d'analyse des LLM
 
@@ -161,13 +162,13 @@ Quelles sont les nouvelles du jour?<BR>
 Peux-tu me faire une courte biographie de Vincent Guigue, professeur d'informatique?
 
 <ul>
-<li>[connecté] https://chatgpt.com/ ou https://www.perplexity.ai/</li>
-<li>[déconnecté] https://claude.ai/ ou https://huggingface.co/chat/</li>
+<li>[connecté] <a href="https://chatgpt.com/"> chatGPT</a> ou <a href="https://www.perplexity.ai/"> perplexity </a></li>
+<li>[déconnecté] <a href="https://claude.ai/"> claude</a> ou <a href="https://huggingface.co/chat/"> Huggingface</a> </li>
 </ul>
 
 </div>
 
-### 8.b Dialogue avec un document
+### 2.b Dialogue avec un document
 
 Charger un document dans NotebookLM [lien](https://notebooklm.google.com/) puis commencer les questions... ($\Rightarrow$ Ajouter une ressource)
 

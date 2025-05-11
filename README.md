@@ -1,6 +1,6 @@
 
 
-## Ressources de la partie séminaire
+## Ressources du séminaire pratique
 
 Les supports du séminaire et les analyses des sessions pratiques:
 
@@ -65,3 +65,6 @@ Les LLM en mode RAG, pour dialoguer avec des documents:
 
 [Troisième session pratique](partiedoc)
 
+## Ales
+
+[Session pratique](Ales)

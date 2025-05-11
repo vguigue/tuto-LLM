@@ -1,5 +1,7 @@
 
-## Session 1: se lancer avec un LLM
+## Session A: se lancer avec un LLM
+
+[Retour à la page principale](README.md)
 
 Première série d'exercice pour prendre en main les LLM, découvrir de nouveaux usages et prendre du recul par rapport aux réponses.
 
@@ -77,13 +79,30 @@ Travaillons sur des exemples d'intérêt croissant: il notamment est très inté
 <ul>
 <li> Traduire en anglais : les LLM maximisent la vraisemblance mais n'ont pas de notion de véracité. </li>
 <li> Traduire en anglais: il pleut des cordes</li>
-<li> Traduire le fichier suivant en anglais en conservant le format latex <a href=""> Lien vers reco.tex</a> </li>
+<li> Traduire le fichier suivant en anglais en conservant le format latex <a href="https://github.com/vguigue/tuto-LLM/blob/main/ressources/reco.tex"> Lien vers reco.tex</a> </li>
 </ul>
 
 ➡️ Jouer dans votre domaine, avec un vocabulaire technique susceptible de prendre en défaut le LLM
 
 
 </div>
+
+### 2.d Modèles connectés vs déconnectés
+
+Faire la part des choses entre la mémoire paramétrique et les capacités d'analyse des LLM: toujours réfléchir à l'origine des informations qui vous sont fournies
+
+<div class="ex-box">
+
+Quelles sont les nouvelles du jour?<BR>
+Peux-tu me faire une courte biographie de Vincent Guigue, professeur d'informatique?
+
+<ul>
+<li>[connecté] <a href="https://chatgpt.com/"> chatGPT</a> ou <a href="https://www.perplexity.ai/"> perplexity </a></li>
+<li>[déconnecté] <a href="https://claude.ai/"> claude</a> ou <a href="https://huggingface.co/chat/"> Huggingface</a> </li>
+</ul>
+
+</div>
+
 
 ## A.3. Mettre en difficulté un modèle
 
@@ -246,6 +265,18 @@ Trouver un prompt permettant de générer l'image suivante (SANS donner l'image 
 </ul>
 
 Note: il y a un coté stochastique dans la génération qui empêche la reproduction exacte
+</div>
+
+Note, c'est assez différent de générer une image et de transformer une image
+
+<div class="ex-box">
+
+En partant d'un portrait quelconque (e.g. <a href="https://github.com/vguigue/vguigue.github.io/blob/main/resources/vincent.jpg"> lien </a>), on peut facilement demander d'avoir
+
+<ul>
+<li>une version dans le style de Kandinsky, Miyazaki, ...</li>
+</ul>
+
 </div>
 
 

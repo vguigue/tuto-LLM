@@ -1,3 +1,7 @@
+## Session B: exercices pour les enseignants-chercheurs
+
+
+[Retour à la page principale](README.md)
 
 Nous allons voir les usages *recherche*, notamment bibliographique et écriture d'article puis des usages plus pédagogiques sur la rédaction de cours, la création d'exercice.
 
