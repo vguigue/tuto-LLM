@@ -1,3 +1,6 @@
+## Propositions de l'équipe pédagogique d'Ales
+
+[Retour à la page principale](tuto-LLM/README.md)
 
 ## Analyse du réglement de la scolarité
 
@@ -93,6 +96,22 @@ TC_5_2-2 Réseau
 TC_5_2-3 Bases de données relationnelles
 <BR>
 TC_5_2-4 Outils d'analyse
+<BR>
+➡️ Il est aussi possible de demander un formatage spécifique pour le tableau (latex, markdown, ...)
 </div>
 
 Il est aussi possible de jouer avec d'autres outils pour remettre en forme /enrichir les résultats.
+
+<div class="ex-box">
+
+Ne pas hésiter à diversifier les outils et les points de vue:
+si on se demande si on n'a rien oublié... Voici un nouveau protocole:
+
+<ul>
+<li>Prendre un LLM classique, donner l'intitulé du cours et demander un plan + corriger ce plan pour coller aux attentes de l'équipe pédagogique</li>
+<li>Donner uniquement le référentiel au LLM et demander la construction du tableau</li>
+</ul>
+
+➡️ Ce n'est pas le même outil, ce ne sera pas la même réponse, pas le même formatage etc...
+
+</div>

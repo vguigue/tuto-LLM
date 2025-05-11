@@ -1,6 +1,6 @@
 ## Session C: mise en forme des idées
 
-[Retour à la page principale](README.md)
+[Retour à la page principale](tuto-LLM/README.md)
 
 ## C.1. Mise en forme des données brutes
 
