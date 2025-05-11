@@ -8,6 +8,8 @@ Slides du matin : [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressource
 Slides de l'après-midi: [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/practical.pdf)
 
 
+Dans tous les exercices suivants, si les résultats sont **marquants/amusants/intéressants/désastreux**... ➡️ Envoyez les à Sylvie/Vincent Ranwez pour construire un retour sur la journée
+
 ## Les LLMs sur les lesquels nous allons travailler
 
 <div class="ex-box">

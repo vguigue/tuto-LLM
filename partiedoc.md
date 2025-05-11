@@ -1,6 +1,6 @@
 ## Session C: mise en forme des idées
 
-[Retour à la page principale](tuto-LLM/README.md)
+[Retour à la page principale](tuto-LLM/README)
 
 ## C.1. Mise en forme des données brutes
 
@@ -76,6 +76,8 @@ La démarche consiste à donner tous les éléments (ou presque) au modèle de l
 <div class="ex-box">
 
 ➡️ Dans l'idéal, prenez un de vos article écrit récemment et tenter de reconstruire une introduction en donnant les bons éléments au modèle de langue
+<BR>
+
 
 </div>
 
@@ -172,7 +174,12 @@ Peux-tu me faire une courte biographie de Vincent Guigue, professeur d'informati
 
 Charger un document dans NotebookLM [lien](https://notebooklm.google.com/) puis commencer les questions... ($\Rightarrow$ Ajouter une ressource)
 
-OPT 1: le rapport HCERES de l'IPS2: [lien](https://www.hceres.fr/sites/default/files/media/publications/rapports_evaluations/pdf/E2026-EV-0912408Y-DER-ER-DER-PUR260024983-SVE2-IPS2-RF.pdf)
+OPT 1: Jouons avec les rapports HCERES
+
+* le rapport HCERES de l'IPS2: [lien](https://www.hceres.fr/sites/default/files/media/publications/rapports_evaluations/pdf/E2026-EV-0912408Y-DER-ER-DER-PUR260024983-SVE2-IPS2-RF.pdf)
+* Les rapports HCERES des laboratoires des Mines d'Ales: [lien](https://www.hceres.fr/fr/node/12597); il ne reste plus qu'à choisir votre laboratoire
+* Les rapports HCERES des laboratoires de l'institut Agro Montpellier: [lien](https://www.hceres.fr/sites/default/files/media/publications/rapports_evaluations/pdf/D2025-EV-0756246G-DEE-ETAB250024600-RD.pdf); 
+N'hésitez pas à chercher votre laboratoire
 
 OPT 2: un poly de statistiques (e.g., celui d'A. Guyader): [lien](https://perso.lpsm.paris/~aguyader/files/teaching/M1/PolycopiePartie1.pdf)
 

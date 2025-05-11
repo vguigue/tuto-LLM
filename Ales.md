@@ -1,6 +1,6 @@
 ## Propositions de l'équipe pédagogique d'Ales
 
-[Retour à la page principale](tuto-LLM/README.md)
+[Retour à la page principale](tuto-LLM/README)
 
 ## Analyse du réglement de la scolarité
 
