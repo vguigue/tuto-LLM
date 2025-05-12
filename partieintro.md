@@ -1,7 +1,7 @@
 
 ## Session A: se lancer avec un LLM
 
-[Retour à la page principale](tuto-LLM)
+[Retour à la page principale](./)
 
 Première série d'exercice pour prendre en main les LLM, découvrir de nouveaux usages et prendre du recul par rapport aux réponses.
 
