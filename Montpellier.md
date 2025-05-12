@@ -1,6 +1,6 @@
 ## Session E: Exercices/défis proposés par vos collègues de Montpellier
 
-[Retour à la page principale]((./)
+[Retour à la page principale](./)
 
 ## E.1. Projection d'UE / ECUE dans un référentiel RNCP
 
