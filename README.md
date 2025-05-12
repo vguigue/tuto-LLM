@@ -67,6 +67,10 @@ Les LLM en mode RAG, pour dialoguer avec des documents:
 
 [Troisième session pratique](partiedoc)
 
-## Ales
+## D. Exercices avancés (référentiel de compétence, détection IA...) - Ales
 
 [Session pratique](Ales)
+
+## E. Exercices avancés - Montpellier
+
+[Session pratique](Montpellier)

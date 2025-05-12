@@ -5,6 +5,9 @@
 
 Nous allons voir les usages *recherche*, notamment bibliographique et écriture d'article puis des usages plus pédagogiques sur la rédaction de cours, la création d'exercice.
 
+[Une autre vision des LLM pour la pédagogie, pour plus tard: [lien](https://oer.uclouvain.be/jspui/bitstream/20.500.12279/1089.3/6/CahierLLL_IAG_OKOER.pdf)]
+
+
 ## B.1. Bibliographie
 
 C'est un des usages controversé: on a beaucoup cité la bibliographie comme la chose à NE PAS faire avec un LLM... Tentons quelques expériences.
@@ -79,6 +82,20 @@ Je veux construire le plan d'un cours sur XXX [e.g. l'Intelligence Artificielle]
 
 ➡️ Juger ce qui est (1) pertinent mais évident, (2) pertienent et original, (3) discutable ou faux
 </div>
+
+
+Aller vers des pédagogies alternatives
+<div class="ex-box">
+
+Dans le cadre d'un cours de 20h sur <i>la programmation objet</i> [remplacer par ce que vous voulez]
+<ul>
+<li>Je m'intérroge sur des organisation différentes du classique TP/cours: peux-tu me proposer des pédagogies alternatives</li>
+<li>Demander des titres de séances, des exemples d'exercices,... </li>
+<li> Au lieu de demander un sommaire, on peut demander une carte mentale, éventuellement en version graphique</li>
+</ul>
+
+</div>
+
 
 
 ### 2.b Exercices & quizz
