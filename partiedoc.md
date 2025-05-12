@@ -225,3 +225,22 @@ Ou avec des documents plus techniques, par exemple, l'article de base sur AlphaF
 
 Il est amusant de constater que la fonction est aussi présente dans Acrobat Reader (version gratuite) mais limitée à un document.
 
+## C.3. Prise de recul sur les hallucinations et le RAG
+
+Une manière de lutter contre les hallucinations est de forcer les LLM à batir leurs réponses à partir de documents et non à partir de leur mémoire paramétrique.
+
+Voici un petit exercice amusant pour tester cela:
+
+<div class="ex-box">
+
+Donner le fichier <a href="https://github.com/vguigue/tuto-LLM/blob/main/ressources/knowledges.txt">lien</a> à un LLM (ou copier son contenu) puis poser les questions suivantes en spécifiant à chaque fois que vous voulez une réponse tirée du document fourni.
+
+<ul>
+<li>Ou se trouve la tour Eiffel?</li>
+<li>Nostradamus était-il riche? Pourquoi?</li>
+<li>Pour quelle raison est connu Gutenberg?</li>
+<li>Qui a fondé Facebook?<li>
+
+</ul>
+➡️  Le LLM puise-t-il dans le document uniquement ou va-t-il <i>inventer</i> des choses issues de sa mémoire?
+</div>

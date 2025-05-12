@@ -24,4 +24,3 @@ L'enjeu de ce défi est de tenter de remplir un fichier du type: <a href="Réfe
 
 </div>
 
-## E.2. 
