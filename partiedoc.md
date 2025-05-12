@@ -239,7 +239,7 @@ Donner le fichier <a href="https://github.com/vguigue/tuto-LLM/blob/main/ressour
 <li>Ou se trouve la tour Eiffel?</li>
 <li>Nostradamus était-il riche? Pourquoi?</li>
 <li>Pour quelle raison est connu Gutenberg?</li>
-<li>Qui a fondé Facebook?<li>
+<li>Qui a fondé Facebook?</li>
 
 </ul>
 ➡️  Le LLM puise-t-il dans le document uniquement ou va-t-il <i>inventer</i> des choses issues de sa mémoire?
