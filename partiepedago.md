@@ -191,7 +191,7 @@ Soit l'énoncé jouet [remplacable par ce que vous voulez]:<BR> Expliquer brièv
 <li> Donner l'énoncé à un LLM et copier la réponse</li>
 <li> Aller sur GPT Zero et coller dans la boite</li>
 <li> Que se passe-t-il si vous demandez au LLM de reformuler sa réponse (ou que vous le faites à la main):<BR> Reformuler la réponse sans les formules et avec des phrases plus simple tout en gardant les mots clés techniques. Ajouter quelques fautes d'orthographes.</li>
-<li> Que se passe-t-il lorsque vous donnez un paragraphe de wikipedia? Par exemple tiré de <a href="https://fr.wikipedia.org/wiki/Wikipédia:Accueil_principal">lien<a></li>
+<li> Que se passe-t-il lorsque vous donnez un paragraphe de wikipedia? Par exemple tiré de <a href="https://fr.wikipedia.org/wiki/Wikipédia:Accueil_principal">lien</a></li>
 </ul>
 ➡️ Comment analyser ces chiffres? Comment s'en servir?
 </div>
