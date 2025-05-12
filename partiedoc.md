@@ -15,6 +15,8 @@ Construire un tableau à l'aide du prompt suivant:
 <li>Construire un tableau au format Latex/Excel à partir des données suivantes:</li>
 <li>Sélectionner le bloc de texte, le copier, le coller dans le prompt</li>
 <li>Copier-coller le tableau dans Excel</li>
+
+➡️ Vous pouvez améliorer le rendu en donnant des précisions sur le format de tableau souhaité (par exemple tidy, merci, V. Ranwez)
 </ul>
 
 </div>

@@ -115,3 +115,20 @@ si on se demande si on n'a rien oublié... Voici un nouveau protocole:
 ➡️ Ce n'est pas le même outil, ce ne sera pas la même réponse, pas le même formatage etc...
 
 </div>
+
+### Détecter l'IA dans des textes
+
+Si nous devons apprendre à détecter l'IA dans les travaux des étudiants... Commençons à nous entrainer :)
+
+<div class="ex-box">
+Dans les fichiers ci-dessous (2 pep, avec et sans IA), essayer de trouver lequel est l'original et lequel est celui regénérer artificiellement.
+
+<ul>
+<li>pep 1, <a href="https://github.com/vguigue/tuto-LLM/blob/main/ressources/PEP/pep1.pdf"> </a>; <a href="https://github.com/vguigue/tuto-LLM/blob/main/ressources/PEP/pep1-w.pdf"> </a></li>
+
+<li>pep 1, <a href="https://github.com/vguigue/tuto-LLM/blob/main/ressources/PEP/pep2-w.pdf"> </a>; <a href="https://github.com/vguigue/tuto-LLM/blob/main/ressources/PEP/pep2.pdf"> </a></li>
+</ul>
+
+➡️ L'idée de l'exercice est d'abord de chercher à l'oeil humain puis éventuellement d'utiliser les outils vus dans les exercices précédents.
+
+</div>
