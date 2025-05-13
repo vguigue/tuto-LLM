@@ -1,7 +1,7 @@
 ## Session E: Exercices/défis proposés par vos collègues de Montpellier
 
 [Retour à la page principale](./)
-
+ 
 ## E.1. Projection d'UE / ECUE dans un référentiel RNCP
 
 La description de la **licence pro GENA** est disponible dans le fichier: [lien](https://github.com/vguigue/tuto-LLM/blob/main/ressources/Montpellier/LPGENA.pdf)
