@@ -10,7 +10,7 @@ La description du référentiel RNCP est disponible dans le fichier: [lien](http
 
 <div class="ex-box">
 
-L'enjeu de ce défi est de tenter de remplir un fichier du type: <a href="https://github.com/vguigue/tuto-LLM/raw/refs/heads/main/ressources/Montpellier/Référentiel.xlsx">lien</a>
+L'enjeu de ce défi est de tenter de remplir un fichier du type: <a href="https://github.com/vguigue/tuto-LLM/raw/refs/heads/main/ressources/Montpellier/Referentiel.xlsx">lien</a>
 
 <ul>
 <li>Vous pouvez tenter de mettre les deux premiers document dans Ragarenn ou dans NotebookLM puis d'orienter les questions pour remplir le tableau<BR> Ex: <i>Ces documents contiennent respectivement une description des UE de la licence GENA et un référentiel RNCP. Peux tu créer un tableau projetant chaque UE / ECUE de la licence dans le référentiel?</i></li>
